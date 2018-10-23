@@ -2,7 +2,7 @@ pipeline {
     agent {
     dockerfile {
             filename 'Dockerfile.build'
-            label 'runner-with-exifff'
+            label 'dicker'
             args '-v /tmp:/tmp'
         }
      }
